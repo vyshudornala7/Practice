@@ -1,17 +1,16 @@
-import React from 'react'
-import './index.css'
-import ToggleVisibility from './components/ToggleVisibility'
+import React from "react";
+import UserList from "./components/UserList";
+import LiveSearch from "./components/LiveSearch";
 
-const App = () => {
-  
+function App() {
   return (
-     <div>
-      <h1>Toggle Visibility Task</h1>
-      <ToggleVisibility />
-    </div>
-  )
-    
-
+    <div>
+      <UserList />
+      <LiveSearch />
+     </div>
+  );
 }
 
 export default App;
+
+
